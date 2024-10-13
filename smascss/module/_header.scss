@@ -1,0 +1,51 @@
+.GRUPOTITAN{
+    background-color: $bg-primary;
+    color: $text-color;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+
+$ancho: 900px;
+$centrado: 0 auto;
+$izquierda: left;
+$derecha: right;
+$margin-left: 15px;
+$padding: 45px 0;
+
+.GRUPOTITAN{
+    background: #242424;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+.titulo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 10px;      
+}
+
+
+
+div{
+    width: 900px;
+    margin: $centrado;
+}
+
+
+nav{
+    float: $derecha;
+}
+// 
+nav ul li{
+    list-style: none;
+    margin-left: $margin-left;
+    padding: $padding;
+    float:left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #c9e9139d;
+    font-weight: bold;
+}
